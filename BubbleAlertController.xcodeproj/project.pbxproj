@@ -12,6 +12,8 @@
 		AEE7C2EF1DB76538008E8855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE7C2ED1DB76538008E8855 /* Main.storyboard */; };
 		AEE7C2F11DB76538008E8855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE7C2F01DB76538008E8855 /* Assets.xcassets */; };
 		AEE7C2F41DB76538008E8855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE7C2F21DB76538008E8855 /* LaunchScreen.storyboard */; };
+		AEE7C2FC1DB76631008E8855 /* MyAlertC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C2FB1DB76631008E8855 /* MyAlertC.swift */; };
+		AEE7C2FE1DB76DA3008E8855 /* Quarz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE7C2FD1DB76DA3008E8855 /* Quarz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AEE7C2F01DB76538008E8855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE7C2F31DB76538008E8855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE7C2F51DB76538008E8855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE7C2FB1DB76631008E8855 /* MyAlertC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlertC.swift; sourceTree = "<group>"; };
+		AEE7C2FD1DB76DA3008E8855 /* Quarz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quarz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AEE7C2F01DB76538008E8855 /* Assets.xcassets */,
 				AEE7C2F21DB76538008E8855 /* LaunchScreen.storyboard */,
 				AEE7C2F51DB76538008E8855 /* Info.plist */,
+				AEE7C2FB1DB76631008E8855 /* MyAlertC.swift */,
+				AEE7C2FD1DB76DA3008E8855 /* Quarz.swift */,
 			);
 			path = BubbleAlertController;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE7C2EC1DB76538008E8855 /* ViewController.swift in Sources */,
+				AEE7C2FE1DB76DA3008E8855 /* Quarz.swift in Sources */,
+				AEE7C2FC1DB76631008E8855 /* MyAlertC.swift in Sources */,
 				AEE7C2EA1DB76538008E8855 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
